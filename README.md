@@ -48,6 +48,22 @@ Start the server:
 
 ```
 
+#### Tests
+
+Tests build with [Jest](http://jestjs.io/)
+
+To run tests, you can use:
+
+```
+npm run test
+```
+
+or
+
+```
+yarn test
+```
+
 ### **Front-end** [React] 💻
 
 Powered by [React.js](https://reactjs.org)
