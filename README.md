@@ -27,14 +27,25 @@ Run the following commands:
 
 ```
 2. npm i
-3. npm start
 ```
 
 - If you are using **yarn**
 
 ```
 2. yarn
-3. yarn start
+```
+
+Run the database migrations:
+
+```npx
+3. npx knex migrate:latest
+```
+
+Start the server:
+
+```
+4. npm start or yarn start
+
 ```
 
 ### **Front-end** [React] 💻
@@ -90,6 +101,7 @@ Run the following commands:
 ```
 
 Config the .env file with your API URL (IP:PORT)
+If you're running on your physical device, you can't use your localhost or 127.0.0.1 address
 
 - If you are using **npm**
 
